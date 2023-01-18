@@ -1,0 +1,29 @@
+@use 'src/styles/vars';
+
+.header{
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+    flex-direction: column;
+    align-items: center;
+    padding: vars.$gutter;
+
+    &-logo{
+        margin: vars.$gutter*2;
+        font-size: 3.5rem;
+        letter-spacing: -1.3rem;
+        font-weight: 900;
+    }
+
+    &-title{
+        margin-bottom:vars.$gutter*2;
+        font-size: 3rem;
+    }
+
+
+}
+
+
+@media (min-width:768px) {
+
+}
