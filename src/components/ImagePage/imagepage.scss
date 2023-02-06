@@ -1,0 +1,27 @@
+@use 'src/styles/vars';
+
+.image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: vars.$gutter;
+    margin-bottom: vars.$gutter;
+
+    &-title{
+
+    }
+
+    &-img{
+        width: 100%;
+
+    }
+
+    &-subtitle{
+
+    }
+
+    &-link{
+
+    }
+}

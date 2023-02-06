@@ -1,0 +1,52 @@
+@use 'src/styles/vars';
+
+.footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+
+
+
+    &-logo{
+        width: 1.3rem;
+        margin: vars.$gutter;
+    }
+
+    &-text{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (min-width:768px) {
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    &-logo{
+        width: 2rem;
+    }
+
+    &-text{
+        font-size: 1rem;
+    }
+}
+}
+
+@media (min-width:1024px) {
+
+    .footer{
+        position: relative;
+        bottom: 0;
+        &-logo{
+            width: 2rem;
+        }
+    
+        &-text{
+            font-size: 1rem;
+        }
+    }
+    }
