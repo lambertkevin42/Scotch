@@ -13,10 +13,16 @@
     &-logo{
         width: 1.3rem;
         margin: vars.$gutter;
+        &:hover{
+            color: vars.$yellow;
+        }
     }
 
     &-text{
         font-size: 0.8rem;
+        &:hover{
+            color: vars.$yellow;
+        }
     }
 }
 
@@ -24,7 +30,7 @@
 @media (min-width:768px) {
 
 .footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     &-logo{
         width: 2rem;
@@ -36,17 +42,3 @@
 }
 }
 
-@media (min-width:1024px) {
-
-    .footer{
-        position: relative;
-        bottom: 0;
-        &-logo{
-            width: 2rem;
-        }
-    
-        &-text{
-            font-size: 1rem;
-        }
-    }
-    }

@@ -8,20 +8,53 @@
     margin-top: vars.$gutter;
     margin-bottom: vars.$gutter;
 
-    &-title{
-
+    &-goback{
+        all: unset;
+        margin: vars.$gutter;
+        padding: vars.$gutter*0.5;
+        align-self: center;
+        color: vars.$white;
+        border: 1px solid vars.$white;
+        border-radius: 25px;
+        font-size: smaller;
+        &:hover{
+            color: vars.$yellow;
+            border: 1px solid vars.$yellow;
+        }
     }
 
-    &-img{
-        width: 100%;
-
+    &-size{
+        font-size: small;
+        padding-top: vars.$gutter;
     }
 
-    &-subtitle{
-
+    &-time{
+        font-size: small;
+        padding: vars.$gutter;
     }
 
-    &-link{
-
+    &-text{
+        width: 70%;
+        text-align:justify;
+        padding: vars.$gutter;
     }
+}
+
+
+@media (min-width:768px) {
+
+    .image{
+        &-text{
+            width: 65%;
+        }
+    } 
+}
+
+@media (min-width:1024px) {
+
+    .image{
+        &-text{
+            width: 53%;
+        }
+    } 
 }

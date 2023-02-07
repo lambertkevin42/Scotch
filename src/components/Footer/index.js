@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <img className="footer-logo" src={icon} alt="Logo instagram" />
-            <p className="footer-text">kevinlambert_scotch</p>
+            <a href="https://www.instagram.com/kevinlambert_scotch/?hl=fr" className="footer-text">kevinlambert_scotch</a>
         </div>
     );
 }

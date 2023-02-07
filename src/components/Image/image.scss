@@ -2,14 +2,15 @@
 
 .image{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     margin-top: vars.$gutter;
     margin-bottom: vars.$gutter;
 
     &-title{
-
+        padding: vars.$gutter;
+        font-weight: 700;
     }
 
     &-img{
@@ -17,11 +18,43 @@
 
     }
 
-    &-subtitle{
-
-    }
-
     &-link{
+        padding: vars.$gutter;
+        margin-bottom: vars.$gutter;
+        margin-top: vars.$gutter*0.5;
+        border: 1px solid vars.$white;
+        border-radius: 25px;
 
+        &:hover{
+            border: 1px solid vars.$yellow;
+            border-radius: 25px;
+            color: vars.$yellow;
+        }
     }
+}
+
+
+@media (min-width:768px) {
+
+    .image{
+        &-img{
+            width: 60%;
+        }
+        &-title{
+            font-size: larger;
+        }
+    } 
+}
+
+
+@media (min-width:1024px) {
+    
+    .image{
+        &-img{
+            width: 50%;
+        }
+        &-link{
+            font-size: larger;
+        }
+    } 
 }

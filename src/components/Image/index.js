@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux';
+
 import { Link } from 'react-router-dom';
 import './image.scss';
 
@@ -12,7 +12,7 @@ function Image({
 
     return (
         <div className="image">
-        <h2 className="image-title">{name}</h2>
+        <h2 className="image-title">-  {name}  -</h2>
         <img className="image-img" alt={alt} src={thumbnail}></img>
         <Link 
             key={id}
