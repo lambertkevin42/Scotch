@@ -19,11 +19,11 @@ const initialState = {
             name: 'Léon',
             alt: 'Léon',
             slug: 'leon',
-            description:`Inspirée de l'affiche originale du film, sorti en France le 14 septembre 1994 et réalisé par Luc Besson.
-            J'ai choisi comme sujet de cette oeuvre Léon interprété par Jean Reno.
+            description:`Inspirée de l'affiche originale du film éponyme, sorti en France le 14 septembre 1994 et réalisé par Luc Besson.
+            J'ai choisi comme sujet de cette oeuvre Léon, interprété par Jean Reno.
             Cette oeuvre est faite de 9 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'52cm x 42cm',
             time:'56 heures',
         },
@@ -37,7 +37,7 @@ const initialState = {
             J'ai choisi comme sujet de cette oeuvre le capitaine Marko Ramius, interprété par Sean Connery.
             Cette oeuvre est faite de 8 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'75cm x 50cm',
             time:'48 heures',
         },
@@ -47,11 +47,11 @@ const initialState = {
             name: 'Le hobbit: La désolation de Smaug',
             alt: 'Smaug',
             slug: 'smaug',
-            description:`Inspirée d'une scène du film éponyme, sorti en Norvège le 11 décembre 2013 et réalisé par John McTiernan.
+            description:`Inspirée d'une scène du film éponyme, sorti en Norvège le 11 décembre 2013 et réalisé par Peter Jackson.
             J'ai choisi comme sujet de cette oeuvre la scène entre Smaug et Bilbon Sacquet, interprété par Martin Freeman.
             Cette oeuvre est faite de 14 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'50cm x 75cm',
             time:'108 heures',
         },
@@ -65,7 +65,7 @@ const initialState = {
             J'ai choisi comme sujet de cette oeuvre les acteurs emblématiques du film Lino Ventura, Bernard Blier, Jean Lefebvre, Francis Blanche et Robert Dalban.
             Cette oeuvre est faite de 10 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'50cm x 120cm',
             time:'256 heures',
         },
@@ -79,7 +79,7 @@ const initialState = {
             J'ai choisi comme sujet de cette oeuvre le chanteur lui-même.
             Cette oeuvre est faite de 6 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'50cm x 70cm',
             time:'15 heures',
         },
@@ -93,7 +93,7 @@ const initialState = {
             J'ai choisi comme sujet de cette oeuvre cette demoiselle, ni plus ni moins.
             Cette oeuvre est faite de 10 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'70cm x 50cm',
             time:'45 heures',
         },
@@ -107,7 +107,7 @@ const initialState = {
             J'ai choisi comme sujet de cette oeuvre Hector Salamanca interprété par Mark Margolis.
             Cette oeuvre est faite de 11 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'70cm x 50cm',
             time:'55 heures',
         },
@@ -121,7 +121,7 @@ const initialState = {
             J'ai choisi comme sujet de cette oeuvre ce saxophoniste emblématique.
             Cette oeuvre est faite de 8 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'52cm x 37cm',
             time:'12 heures',
         },
@@ -135,7 +135,7 @@ const initialState = {
             Je suis fier de vous présenter mon interprétation de Sitting Bull qui à dirigé son peuple pendant des années de résistance contre les politiques du gouvernement des Etats-Unis au XIXème siècle.
             Cette oeuvre est faite de 12 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
-            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour réveler des zones plus ou moins claires et ainsi créer les contrastes.`,
+            J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
             size:'70cm x 50cm',
             time:'27 heures',
         },

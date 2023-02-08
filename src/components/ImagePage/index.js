@@ -22,7 +22,7 @@ function ImagePage(){
           navigate(-1);
         }}
       >
-        Retour à la gallerie
+        Retour à la galerie
       </button>
             <h2 className="image-title">{imagepage.name}</h2>
             <img className="image-img" src={imagepage.thumbnail} alt={imagepage.alt} ></img>
