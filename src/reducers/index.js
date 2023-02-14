@@ -47,7 +47,7 @@ const initialState = {
             name: 'Le hobbit: La désolation de Smaug',
             alt: 'Smaug',
             slug: 'smaug',
-            description:`Inspirée d'une scène du film éponyme, sorti en Norvège le 11 décembre 2013 et réalisé par Peter Jackson.
+            description:`Inspirée d'une scène du film éponyme, sorti le 11 décembre 2013 et réalisé par Peter Jackson.
             J'ai choisi comme sujet de cette oeuvre la scène entre Smaug et Bilbon Sacquet, interprété par Martin Freeman.
             Cette oeuvre est faite de 14 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
@@ -132,7 +132,7 @@ const initialState = {
             alt: 'Sitting Bull',
             slug: 'sitting-bull',
             description:`Réalisée sur demande de mon tout premier acheteur et ami Hugo, qui m'encourage à créer d'avantage.
-            Je suis fier de vous présenter mon interprétation de Sitting Bull qui à dirigé son peuple pendant des années de résistance contre les politiques du gouvernement des Etats-Unis au XIXème siècle.
+            Je suis fier de vous présenter mon interprétation de Sitting Bull qui a dirigé son peuple pendant des années de résistance contre les politiques du gouvernement des Etats-Unis au XIXème siècle.
             Cette oeuvre est faite de 12 couches de scotch marron, habituellement dédié à l'emballage de carton.
             Elle est entièrement réalisée en scotch, sur un support plastique transparent.
             J'ai effectué ce travail par suppression de matière, de sorte à laisser passer la lumière pour révéler des zones plus ou moins claires et ainsi créer les contrastes.`,
