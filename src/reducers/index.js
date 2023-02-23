@@ -1,13 +1,13 @@
 import { NEXT_IMG, PREVIOUS_IMG } from "../actions";
-import img1 from '../assets/images/leon.jpg';
-import img2 from '../assets/images/octobrerouge.jpg';
-import img3 from '../assets/images/smaug.jpg';
-import img4 from '../assets/images/tontonsflingueurs.jpg';
-import img5 from '../assets/images/brel.jpg';
-import img6 from '../assets/images/claire.jpg';
-import img7 from '../assets/images/hector.jpg';
-import img8 from '../assets/images/saxophoniste.jpg';
-import img9 from '../assets/images/sittingbull.jpg';
+import img1 from '../assets/images/leon.webp';
+import img2 from '../assets/images/octobrerouge.webp';
+import img3 from '../assets/images/smaug.webp';
+import img4 from '../assets/images/tontonsflingueurs.webp';
+import img5 from '../assets/images/brel.webp';
+import img6 from '../assets/images/claire.webp';
+import img7 from '../assets/images/hector.webp';
+import img8 from '../assets/images/saxophoniste.webp';
+import img9 from '../assets/images/sittingbull.webp';
 
 const initialState = {
     
