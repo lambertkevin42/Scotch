@@ -86,9 +86,9 @@ const initialState = {
         {
             id: 6,
             thumbnail: img6,
-            name: 'Claire',
-            alt: 'Claire',
-            slug: 'claire',
+            name: 'Inconnue #1',
+            alt: 'Inconnue #1',
+            slug: 'Inconnue #1',
             description:`Inspirée d'une rencontre personnelle.
             J'ai choisi comme sujet de cette oeuvre cette demoiselle, ni plus ni moins.
             Cette oeuvre est faite de 10 couches de scotch marron, habituellement dédié à l'emballage de carton.

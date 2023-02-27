@@ -18,3 +18,11 @@ Follow this link [https://ScotchArt.surge.sh]
 
 I hope you will enjoy your visite on my little project !!
 
+### `Techno`
+- react
+- react-redux
+- JSX
+- Sass
+- Surge
+- github
+
