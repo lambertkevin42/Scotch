@@ -4,7 +4,7 @@ import img2 from '../assets/images/octobrerouge.webp';
 import img3 from '../assets/images/smaug.webp';
 import img4 from '../assets/images/tontonsflingueurs.webp';
 import img5 from '../assets/images/brel.webp';
-import img6 from '../assets/images/claire.webp';
+import img6 from '../assets/images/inconnue1.webp';
 import img7 from '../assets/images/hector.webp';
 import img8 from '../assets/images/saxophoniste.webp';
 import img9 from '../assets/images/sittingbull.webp';
@@ -15,6 +15,8 @@ const initialState = {
     imglist: [
         {
             id: 1,
+            width: 720,
+            height: 720,
             thumbnail: img1,
             name: 'Léon',
             alt: 'Léon',
@@ -29,6 +31,8 @@ const initialState = {
         },
         {
             id: 2,
+            width: 720,
+            height: 739.16,
             thumbnail: img2,
             name: `A la poursuite d'Octobre rouge`,
             alt: 'Octobre rouge',
@@ -43,6 +47,8 @@ const initialState = {
         },
         {
             id: 3,
+            width: 720,
+            height: 511.58,
             thumbnail: img3,
             name: 'Le hobbit: La désolation de Smaug',
             alt: 'Smaug',
@@ -57,6 +63,8 @@ const initialState = {
         },
         {
             id: 4,
+            width: 720,
+            height: 282.84,
             thumbnail: img4,
             name: 'Les tontons flingueurs',
             alt: 'Les tontons flingueurs',
@@ -71,6 +79,8 @@ const initialState = {
         },
         {
             id: 5,
+            width: 720,
+            height: 743.22,
             thumbnail: img5,
             name: 'Jacques Brel',
             alt: 'Jacques Brel',
@@ -85,10 +95,12 @@ const initialState = {
         },
         {
             id: 6,
+            width: 720,
+            height: 744.75,
             thumbnail: img6,
-            name: 'Inconnue #1',
-            alt: 'Inconnue #1',
-            slug: 'Inconnue #1',
+            name: 'inconnue #1',
+            alt: 'inconnue #1',
+            slug: 'inconnue #1',
             description:`Inspirée d'une rencontre personnelle.
             J'ai choisi comme sujet de cette oeuvre cette demoiselle, ni plus ni moins.
             Cette oeuvre est faite de 10 couches de scotch marron, habituellement dédié à l'emballage de carton.
@@ -99,6 +111,8 @@ const initialState = {
         },
         {
             id: 7,
+            width: 720,
+            height: 783.91,
             thumbnail: img7,
             name: 'Hector Salamanca',
             alt: 'Hector Salamanca',
@@ -113,6 +127,8 @@ const initialState = {
         },
         {
             id: 8,
+            width: 720,
+            height: 738.55,
             thumbnail: img8,
             name: 'Coleman Hawkins',
             alt: 'Saxophoniste',
@@ -127,6 +143,8 @@ const initialState = {
         },
         {
             id: 9,
+            width: 720,
+            height: 886.58,
             thumbnail: img9,
             name: 'Sitting Bull',
             alt: 'Sitting Bull',

@@ -8,12 +8,14 @@ function Image({
     thumbnail,
     id,
     slug,
+    width,
+    height,
 }) {
 
     return (
         <div className="image">
         <h2 className="image-title">-  {name}  -</h2>
-        <img className="image-img" alt={alt} src={thumbnail}></img>
+        <img className="image-img" alt={alt} src={thumbnail} width={width} height={height}></img>
         <Link 
             key={id}
             to= {`/image/${slug}`}
